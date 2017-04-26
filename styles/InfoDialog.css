@@ -1,0 +1,37 @@
+.app-container .info-dialog {
+  background: #f0f0f5;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: Arial;
+  width: 40%;
+  padding: 2rem;
+  position: absolute;
+  top: 10%;
+  left: 32%; }
+  .app-container .info-dialog .info-dialog-close {
+    text-align: right;
+    color: #d3d3d3; }
+  .app-container .info-dialog .info-dialog-header {
+    color: #00b4e5; }
+  .app-container .info-dialog .info-dialog-body input {
+    background-color: #d3d3d3; }
+  .app-container .info-dialog .info-dialog-body .team-info {
+    padding-top: 2rem;
+    padding-bottom: 2rem; }
+    .app-container .info-dialog .info-dialog-body .team-info .team-container {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+      .app-container .info-dialog .info-dialog-body .team-info .team-container .team-option {
+        padding: .5rem; }
+  .app-container .info-dialog .info-dialog-body .employee-info .emp-container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+    .app-container .info-dialog .info-dialog-body .employee-info .emp-container .emp-option {
+      padding: .5rem; }
+  .app-container .info-dialog .info-dialog-footer {
+    text-align: right;
+    padding-top: 2rem; }
+    .app-container .info-dialog .info-dialog-footer .btn-ok {
+      background-color: #00b4e5;
+      width: 22%; }
+    .app-container .info-dialog .info-dialog-footer .btn-cancel {
+      width: 22%; }
+
+/*# sourceMappingURL=InfoDialog.css.map */

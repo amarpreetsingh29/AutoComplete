@@ -1,0 +1,53 @@
+.app-container{
+  .info-dialog{
+    background: #f0f0f5;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: Arial;
+    width: 40%;
+    padding: 2rem;
+    position: absolute;
+    top:10%;
+    left: 32%;
+    .info-dialog-close{
+      text-align: right;
+      color: #d3d3d3;
+    }
+    .info-dialog-header{
+      color:#00b4e5;
+    }
+    .info-dialog-body{
+      input{
+        background-color: #d3d3d3;
+      }
+      .team-info{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        .team-container{
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          .team-option{
+            padding: .5rem;
+          }
+        }
+      }
+      .employee-info{
+        .emp-container{
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          .emp-option{
+            padding: .5rem;
+          }
+        }
+      }
+    }
+    .info-dialog-footer{
+      text-align: right;
+      padding-top: 2rem;
+      .btn-ok{
+        background-color:#00b4e5;
+        width: 22%;
+      }
+      .btn-cancel{
+        width: 22%;
+      }
+    }
+  }
+}
